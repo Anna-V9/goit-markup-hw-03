@@ -9,12 +9,48 @@ body {
 
 ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 a {
     text-decoration: none;
 }
 
+.conteiner {
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 
+h1, h2, h3, h4, h5, h6,
+p,
+ul {
+  margin: 0;
+}
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
+}
+
+.header-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.list-nav{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.contacts-list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
 .logo {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -27,6 +63,8 @@ color: #4d5ae5;
 
 .header-logo{
     margin-right: 76px;
+    padding: 24px;
+
 
 }
 .header-logo .logo-part {
@@ -34,6 +72,8 @@ color: #4d5ae5;
 }
 
 .nav-link {
+padding: 24px 0;
+display: block;
 font-weight: 500;
 font-size: 16px; 
 line-height: 1.5;
@@ -43,9 +83,12 @@ color: #2e2f42;
 
 .address{
     font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-link {
+display: block;
+padding: 24px 0;
 font-size: 16px; 
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -61,6 +104,7 @@ color: #434455;
 
 .banner-solution {
     background-color: #2e2f42;
+    padding: 188px 0;
 }
 
 .effective-solution {
@@ -89,9 +133,7 @@ color: #fff;
     background-color: #404BBF;
 }
 
-.advantages {
 
-}
 .list-adventages {
     color: #2e2f42;
 
@@ -109,12 +151,13 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-
 }
+
 .team-section{
 background-color: #F4F4FD;
-
+padding: 120px 0;
 }
+
 .team {
 font-weight: 700;
 font-size: 36px;
@@ -125,13 +168,9 @@ color: #2e2f42;
 text-transform: capitalize;
 }
 
-.team-list {
-}
 .team-card {
 background-color: #FFFFFF;
 }
-
-.team-img {}
 
 .team-people {
 font-weight: 500;
@@ -154,6 +193,7 @@ color: #434455;
 
 .portfolio {
 background-color: #F4F4FD;
+padding: 120px 0;
 font-weight: 700;
 font-size: 36px; 
 line-height: 1.11;
@@ -162,12 +202,6 @@ text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
 }
-
-.portfolio-list {
-
-}
-
-.portfolio-img {}
 
 .portfolio-title {
 font-weight: 500;
