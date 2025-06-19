@@ -15,7 +15,9 @@ ul, ol {
 a {
     text-decoration: none;
 }
-
+img {
+    display: block;
+}
 .conteiner {
     max-width: 1158px;
     padding: 0 15px;
@@ -135,7 +137,12 @@ color: #fff;
 
 
 .list-adventages {
+    padding: 120px 0;
     color: #2e2f42;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    width: calc(100%-72)/4;
 
 }
 .advantage-title {
@@ -159,6 +166,7 @@ padding: 120px 0;
 }
 
 .team {
+    padding: 120px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -167,9 +175,15 @@ text-align: center;
 color: #2e2f42;
 text-transform: capitalize;
 }
-
+.team-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
 .team-card {
 background-color: #FFFFFF;
+
 }
 
 .team-people {
@@ -226,6 +240,7 @@ color: #434455;
 
 .footer-logo {
     margin-bottom: 16px;
+    padding: 101px;
 }
 
 .footer-logo .logo-part {
