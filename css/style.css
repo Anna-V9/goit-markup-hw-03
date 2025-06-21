@@ -177,16 +177,17 @@ ul {
 .advantage{
     padding: 120px 0;
 }
-.list-adventages {
+.list-advantages {
     padding: 120px 0;
     color: #2e2f42;
     display: flex;
     align-items: center;
     gap: 24px;
-    width: calc((100% - 3* 24px) / 4);
 
 }
-
+.advantage-item{
+    width: calc((100% - 3* 24px) / 4);
+}
 .advantage-title {
     font-weight: 500;
     font-size: 20px;
